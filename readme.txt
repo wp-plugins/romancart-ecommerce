@@ -25,7 +25,7 @@ Follow these simple steps to install, activate and setup RomanCart Storefront on
 
 Our dedicated support team are always on hand to offer advice and answer questions regarding the installation of the RomanCart Ecommerce Wordpress plugin, or any of our other servcies or systems. Please feel free to get in touch if you require any assistance.
 
-== Frequently Asked Questions ==
+== FAQ ==
 I have signed up but have not received my logon details email
 If you have not received the email within 5 minutes of registering. it is most likely because you have entered your email address wrong. Please register again taking extra care with the email address. If it still does not work, then check that your email address can receive emails. If this is ok, then you will need to register with a different email address.
 	
