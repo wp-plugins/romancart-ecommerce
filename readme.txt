@@ -8,6 +8,7 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+== Description ==
 The RomanCart Ecommerce Wordpress plugin creates a Store page on your Wordpress website embedded with RomanCart Storefront.
 
 RomanCart Storefront is an embedded, categorised product display, shopping cart and purchasing tool, designed to effortlessly and stylishly convert any website in to a full ecommerce website.
@@ -26,6 +27,9 @@ Follow these simple steps to install, activate and setup RomanCart Storefront on
 Our dedicated support team are always on hand to offer advice and answer questions regarding the installation of the RomanCart Ecommerce Wordpress plugin, or any of our other servcies or systems. Please feel free to get in touch if you require any assistance.
 
 == Frequently Asked Questions ==
+Go to our website for our extensive FAQs section and details on how to contact our suuport team, if needed.
+
+www.romancart.com/sell-more/topbuttons/shopping_cart_faq.html
 
 == Changelog ==
 
