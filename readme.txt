@@ -17,6 +17,8 @@ The RomanCart Ecommerce Wordpress plugin extends this feature to our Wordpress c
 
 Additionally, you can configure the appearance of your RomanCart Storefront from your RomanCart Merchant Account.
 
+www.romancart.com
+
 == Installation ==
 Follow these simple steps to install, activate and setup RomanCart Storefront on your Wordpress website.
 
@@ -25,6 +27,8 @@ Follow these simple steps to install, activate and setup RomanCart Storefront on
 3. Your Wordpress website will now feature a Store page with RomanCart StoreFront installed.
 
 Our dedicated support team are always on hand to offer advice and answer questions regarding the installation of the RomanCart Ecommerce Wordpress plugin, or any of our other servcies or systems. Please feel free to get in touch if you require any assistance.
+
+www.romancart.com
 
 == Frequently Asked Questions ==
 Go to our website for our extensive FAQs section and details on how to contact our support team, if needed.
