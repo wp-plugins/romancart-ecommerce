@@ -27,7 +27,7 @@ Follow these simple steps to install, activate and setup RomanCart Storefront on
 Our dedicated support team are always on hand to offer advice and answer questions regarding the installation of the RomanCart Ecommerce Wordpress plugin, or any of our other servcies or systems. Please feel free to get in touch if you require any assistance.
 
 == Frequently Asked Questions ==
-Go to our website for our extensive FAQs section and details on how to contact our suuport team, if needed.
+Go to our website for our extensive FAQs section and details on how to contact our support team, if needed.
 
 www.romancart.com/sell-more/topbuttons/shopping_cart_faq.html
 
