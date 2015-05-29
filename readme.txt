@@ -8,6 +8,7 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+== Description ==
 The RomanCart Ecommerce Wordpress plugin creates a Store page on your Wordpress website embedded with RomanCart Storefront.
 
 RomanCart Storefront is an embedded, categorised product display, shopping cart and purchasing tool, designed to effortlessly and stylishly convert any website in to a full ecommerce website.
