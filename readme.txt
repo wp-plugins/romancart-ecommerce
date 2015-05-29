@@ -3,7 +3,7 @@ Contributors: RomanCart Development
 Donate link: http://www.romancart.com/
 Tags: RomanCart, Ecommerce, Plugin, Wordpress
 Requires at least: 1.0
-Tested up to: 1.0
+Tested up to: 4.3
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
