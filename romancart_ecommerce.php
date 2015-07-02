@@ -79,12 +79,15 @@ function ROC_getJsFile() {
 
 // filter to update the store id
 function ROC_writePage($content) {
-	$ROC_thisPage = get_page_by_title( 'Store' );
-	if ( is_page($ROC_thisPage->ID) )
+	$ROC_thisTitle = get_page(0)->post_title;
+	if ($ROC_thisTitle == "Store") {
 		$ROC_pageCode = "<div id='ROC_cart'>Cart</div>\n";
 		$ROC_pageCode .= "<div id='ROC_catnav'>Category Navigator</div>\n";
 		$ROC_pageCode .= "<div id='ROC_display'>Item List</div>\n";
-	return $ROC_pageCode;
+	} else {
+		$ROC_pageCode = $content;
+	}
+	echo $ROC_pageCode;
 }
 add_filter('the_content', 'ROC_writePage');
 
