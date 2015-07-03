@@ -87,7 +87,7 @@ function ROC_writePage($content) {
 	} else {
 		$ROC_pageCode = $content;
 	}
-	echo $ROC_pageCode;
+	return $ROC_pageCode;
 }
 add_filter('the_content', 'ROC_writePage');
 
