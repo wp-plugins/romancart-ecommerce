@@ -68,7 +68,7 @@ function ROC_adminpage() {
 <?php
 }
 
-add_filter('wp_enqueue_scripts', 'ROC_getJsFile');
+add_action('wp_enqueue_scripts', 'ROC_getJsFile');
 function ROC_getJsFile() {
 	$ROC_thisPage = get_page_by_title( 'Store' );
 	if ( is_page($ROC_thisPage->ID) )
