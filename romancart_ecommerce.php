@@ -3,7 +3,7 @@
  * Plugin Name: RomanCart Ecommerce
  * Plugin URI: http://www.romancart.com/
  * Description: Creates a Store page on your Wordpress website embedded with RomanCart Storefront.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: RomanCart Development
  * Author URI: http://www.romancart.com
  * License: ROC_LICENSE
@@ -76,20 +76,6 @@ function ROC_getJsFile() {
 		$ROC_jsUrl = "http://remote.romancart.com/display.asp?storeid=".$ROC_storeId."&catnav=ok&cart=ok";
 		wp_enqueue_script( 'ROC_callJsFile', $ROC_jsUrl);
 }
-
-// filter to update the store id
-function ROC_writePage($content) {
-	$ROC_thisTitle = get_page(0)->post_title;
-	if ($ROC_thisTitle == "Store") {
-		$ROC_pageCode = "<div id='ROC_cart'>Cart</div>\n";
-		$ROC_pageCode .= "<div id='ROC_catnav'>Category Navigator</div>\n";
-		$ROC_pageCode .= "<div id='ROC_display'>Item List</div>\n";
-	} else {
-		$ROC_pageCode = $content;
-	}
-	return $ROC_pageCode;
-}
-add_filter('the_content', 'ROC_writePage');
 
 // add page "Store" to WP.
 register_activation_hook(__FILE__,'ROC_createstore');
