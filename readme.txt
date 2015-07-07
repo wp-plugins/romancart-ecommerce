@@ -2,7 +2,7 @@
 Contributors: RomanCart Development
 Donate link: http://www.romancart.com/
 Tags: RomanCart, Ecommerce, Plugin, Wordpress
-Requires at least: 1.0.1
+Requires at least: 1.0.2
 Tested up to: 4.3
 Stable tag: 4.3
 License: GPLv2 or later
@@ -42,6 +42,9 @@ www.romancart.com/sell-more/topbuttons/shopping_cart_faq.html
 
 = 1.0.1 =
 * Filter and Store ID upgrades
+
+= 1.0.2 =
+* Filter replaced with Action. Page specific Javascript inclusion.
 
 Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
 
