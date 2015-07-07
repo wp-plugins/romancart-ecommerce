@@ -70,11 +70,12 @@ function ROC_adminpage() {
 
 add_action('wp_enqueue_scripts', 'ROC_getJsFile');
 function ROC_getJsFile() {
-	$ROC_thisPage = get_page_by_title( 'Store' );
-	if ( is_page($ROC_thisPage->ID) )
+	$ROC_thisTitle = get_page(0)->post_title;
+	if ($ROC_thisTitle == "Store") {
 		$ROC_storeId = get_option( 'ROC_storeId' );
 		$ROC_jsUrl = "http://remote.romancart.com/display.asp?storeid=".$ROC_storeId."&catnav=ok&cart=ok";
 		wp_enqueue_script( 'ROC_callJsFile', $ROC_jsUrl);
+	}
 }
 
 // add page "Store" to WP.
